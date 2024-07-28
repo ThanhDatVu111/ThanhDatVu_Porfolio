@@ -13,21 +13,21 @@ const services = [
   },
   {
     num: "02",
-    title: "UI/UX Design",
+    title: "Cloud Engineer",
     description:
       "bla bla bla.",
     href: "",
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "AI Engineer",
     description:
       "bla bla bla.",
     href: "",
   },
   {
     num: "04",
-    title: "SEO",
+    title: "Game Developer",
     description:
       "bla bla bla.",
     href: "",
