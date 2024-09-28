@@ -4,6 +4,7 @@ import "./globals.css";
 // components
 import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
+import ShatteredGlassTransition from "@/components/ShatteredGlassTransition";
 import StairTransition from "@/components/StairTransition";
 
 const jetbrainsMono = JetBrains_Mono({
@@ -19,11 +20,12 @@ export const metadata = {
 
 //children mean the current page being rendered
 export default function RootLayout({ children }) { 
+  const randomTransition = Math.random() > 0.5 ? <ShatteredGlassTransition /> : <StairTransition />;
   return (
     <html lang="en">
       <body className={jetbrainsMono.variable}>
         <Header/>
-        <StairTransition />
+        {randomTransition}
         <PageTransition>{children}</PageTransition>
       </body>
     </html>

@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 const links = [
   {
     name: "home",
-    path: "/",
+    path: "/", //By default, the home page is routed at / (the root).
   },
   {
     name: "services",
@@ -29,15 +29,15 @@ const links = [
 const Nav = () => {
   const pathname = usePathname();
   return (
-    <nav className="flex gap-8">
-      {links.map((link, index) => {
+    <nav className="flex gap-10">
+      {links.map((link) => {
         return (
           <Link
-            href={link.path}
-            key={index}
+            href={link.path} //This line tells Next.js to navigate to the URL specified in link.path when the user clicks on the link.
+            key={link.name}
             className={`${
-              link.path === pathname && "text-accent border-b-2 border-accent"
-            } capitalize font-medium hover:text-accent transition-all`}
+              link.path === pathname && "text-[#3ea1ce] border-b-2 border-[#20777f]"
+            } capitalize font-medium hover:text-[#20777f] transition-all`}
           >
             {link.name}
           </Link>
