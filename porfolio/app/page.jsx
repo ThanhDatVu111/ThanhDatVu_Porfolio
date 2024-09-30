@@ -5,6 +5,7 @@ import { FiDownload } from "react-icons/fi";
 import Social from "@/components/Social";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
+import TypingEffect from "@/components/TypingEffect";
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none leading-10">
-            <span className="text-xl"> Undergraduate Software Engineer Student</span>
+            <TypingEffect/>
             <h1 className="h1 mb-6">
               Welcome, Recruiter! <br /> <span className="text-accent">I'm Thanh Dat</span>
             </h1>
@@ -42,7 +43,7 @@ const Home = () => {
           </div>
           {/* photo */}
           <div className="order-1 xl:order-none mb-8 xl:mb-0">
-            {/*<Photo />*/}
+            <Photo />
           </div>
         </div>
       </div>

@@ -20,12 +20,11 @@ export const metadata = {
 
 //children mean the current page being rendered
 export default function RootLayout({ children }) { 
-  const randomTransition = Math.random() > 0.5 ? <ShatteredGlassTransition /> : <StairTransition />;
   return (
     <html lang="en">
       <body className={jetbrainsMono.variable}>
         <Header/>
-        {randomTransition}
+        <StairTransition />
         <PageTransition>{children}</PageTransition>
       </body>
     </html>

@@ -9,16 +9,12 @@ const links = [
     path: "/", //By default, the home page is routed at / (the root).
   },
   {
-    name: "services",
-    path: "/services",
+    name: "experiences",
+    path: "/experiences",
   },
   {
-    name: "resume",
-    path: "/resume",
-  },
-  {
-    name: "work",
-    path: "/work",
+    name: "projects",
+    path: "/projects",
   },
   {
     name: "contact",
