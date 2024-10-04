@@ -8,7 +8,7 @@ const stats = [
     text: "Leetcode solved",
   },
   {
-    num: 18,
+    num: 10,
     text: "Projects completed",
   },
   {

@@ -51,7 +51,7 @@ const experience = {
     },
     {
       company: "HeadStarter AI Fellowship",
-      position: "Student",
+      position: "AI Fellow",
       duration: "07/2024 - 08/2024",
     },
     {

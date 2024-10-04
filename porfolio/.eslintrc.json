@@ -1,3 +1,19 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rule":{
+    // This will prevent issues with unescaped characters in JSX
+    "react/no-unescaped-entities": "warn",
+
+    // This ensures that unused variables are flagged, helping to clean up code
+    "no-unused-vars": "warn",
+
+    // Warns if `console.log` is left in the code; useful to clean up before production
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+
+    // Ensures consistency with tailwind classes (based on your usage of TailwindCSS)
+    "tailwindcss/classnames-order": "warn",
+
+    // Disallows the use of inline styles in JSX for better performance
+    "react/no-inline-styles": "warn"
+  }
 }
