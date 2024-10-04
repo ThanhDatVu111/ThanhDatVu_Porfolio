@@ -22,40 +22,52 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
+    category: "Trek Mate",
     title: "project 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "Developed a responsive travel app for Vietnam tourism, featuring a visually appealing hero section, place exploration, travel guide, and mobile app call-to-action, ensuring seamless user experience.",
+    stack: [{ name: "Tailwind.css" }, { name: "React" }, { name: "Typescript" }, { name: "Next.js" }],
     image: "/assets/work/thumb1.png",
     live: "",
-    github: "",
+    github: "https://github.com/ThanhDatVu111/TrekMate",
   },
   {
     num: "02",
-    category: "fullstack",
+    category: "Nike Landing Page",
     title: "project 2",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
+      "Built a mobile-responsive website with Vite, featuring a dynamic hero section, product showcases, custom theming, and advanced Tailwind techniques for animations and interactivity.",
+    stack: [{ name: "Vite" }, { name: "Tailwind.css" }, { name: "Javascript" }, { name: "React" }],
     image: "/assets/work/thumb2.png",
     live: "",
-    github: "",
+    github: "https://github.com/ThanhDatVu111/Nike_clone",
   },
   {
     num: "03",
-    category: "frontend",
+    category: "Project Nostalgia",
     title: "project 3",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
+      "Developed a Gameboy project using Pygame, featuring Flappy Bird, Space Invader, and Tetris running at 60 fps with a game menu, employed gravity simulation, level mapping, collision detection, user inputs, and OOP.",
+    stack: [{ name: "Pygame" }, { name: "Python" }],
     image: "/assets/work/thumb3.png",
     live: "",
-    github: "",
+    github: "https://github.com/ThanhDatVu111/Project_Nostalgia",
   },
+  {
+    num: "04",
+    category: "FortressFin",
+    title: "project 4",
+    description:
+      "Builted a comprehensive banking application with secure MySQL integration, supporting user authentication, fund transfers, balance management, transaction history, and a user-friendly GUI.",
+    stack: [{ name: "Java" }, { name: "MySQL" }, { name: "JavaSwing" }, { name: "JDBC" }],
+    image: "/assets/work/thumb4.png",
+    live: "",
+    github: "https://github.com/ThanhDatVu111/FortressFin_bank",
+  },
+  
 ];
 
-const Work = () => {
+const Projects = () => {
   const [project, setProject] = useState(projects[0]);
 
   const handleSlideChange = (swiper) => {
@@ -84,11 +96,11 @@ const Work = () => {
               </div>
               {/* project category */}
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                {project.category} project
+                {project.category}
               </h2>
               {/* project description */}
               <p className="text-white/60">{project.description}</p>
-              {/* stack */}
+              {/* tech stack */}
               <ul className="flex gap-4">
                 {project.stack.map((item, index) => {
                   return (
@@ -172,4 +184,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Projects;
