@@ -23,8 +23,8 @@ const Photo = () => {
           <Image
             src="/assets/p.png"
             alt="profile picture"
-            width={456}
-            height={456}
+            width={556}
+            height={556}
             className="rounded-full object-cover"
           />
           <div className="absolute inset-0 rounded-full hover:shadow-[0_0_30px_20px_rgba(0,255,255,0.8)] transition-shadow duration-300 ease-in-out"></div>
