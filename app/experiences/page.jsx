@@ -5,7 +5,7 @@ import {
   FaReact,
 } from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotjs, SiPython, SiCplusplus, SiTypescript, SiAmazonaws} from "react-icons/si";
+import { SiAmazonaws, SiCplusplus, SiNextdotjs, SiPython, SiTailwindcss, SiTypescript } from 'react-icons/si';
 
 // about data
 const about = {
