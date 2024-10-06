@@ -42,7 +42,7 @@ const experience = {
   items: [
     {
       company: "Chakra Techworks",
-      position: "Cloud Engineer Internship",
+      position: "Cloud Engineering Internship",
       duration: "06/2024 - 08/2024",
     },
     {
@@ -86,7 +86,7 @@ const education = {
     "I am currently pursuing a degree in Software Engineering with a minor in Computer Science at California State University of San Marcos. With a GPA of 3.96, I have made the Dean’s List and excelled in courses like Data Structures, Algorithms, Software Testing, and Database Systems. My academic journey emphasizes problem-solving and practical application of programming in Python, Java and C++",
   items: [
     {
-      institution: "Calfifornia State University of San Marcos",
+      institution: "California State University of San Marcos",
       degree: "Bachelor: Software Engineering",
       duration: "2022-2026",
     },
