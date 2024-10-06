@@ -47,7 +47,7 @@ const experience = {
     },
     {
       company: "The Prep Institute, LLC",
-      position: "Online Learning Platform Developer Intern",
+      position: "Platform Developer Intern",
       duration: "06/2024 - 08/2024",
     },
     {
@@ -87,7 +87,7 @@ const education = {
   items: [
     {
       institution: "Calfifornia State University of San Marcos",
-      degree: "Bachelor of Engineering in Software Engineering",
+      degree: "Bachelor: Software Engineering",
       duration: "2022-2026",
     },
     {
