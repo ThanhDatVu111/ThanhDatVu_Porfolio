@@ -3,9 +3,10 @@
 import {
   FaJs,
   FaReact,
+  FaAws
 } from "react-icons/fa";
 
-import { SiAmazonaws, SiCplusplus, SiNextdotjs, SiPython, SiTailwindcss, SiTypescript } from 'react-icons/si';
+import {SiCplusplus, SiNextdotjs, SiPython, SiTailwindcss, SiTypescript } from 'react-icons/si';
 
 // about data
 const about = {
@@ -105,7 +106,7 @@ const skills = {
   skillList: [
     {
       icon: <FaJs />,
-      name: "javascript",
+      name: "Javascript",
     },
     {
       icon: <SiTypescript />,
@@ -113,26 +114,26 @@ const skills = {
     },
     {
       icon: <FaReact />,
-      name: "react.js",
+      name: "React.js",
     },
     {
       icon: <SiNextdotjs />,
-      name: "next.js",
+      name: "Next.js",
     },
     {
       icon: <SiTailwindcss />,
-      name: "tailwind.css",
+      name: "Tailwind.css",
     },
     {
       icon: <SiCplusplus/>,
-      name: "c++",
+      name: "C++",
     },
     {
       icon: <SiPython/>,
-      name: "python",
+      name: "Python",
     },
     {
-      icon: <SiAmazonaws/>,
+      icon: <FaAws/>,
       name: "AWS",
     },
   ],
